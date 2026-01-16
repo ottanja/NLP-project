@@ -9,6 +9,8 @@ nltk.download('punkt')
 nltk.download('punkt_tab') # Sometimes needed for newer NLTK versions
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+from nltk.corpus import wordnet
+from nltk.tokenize import word_tokenize
 from textstat import textstat # For Flesch-Kincaid & SMOG
 
 
